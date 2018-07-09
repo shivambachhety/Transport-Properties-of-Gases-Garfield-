@@ -4,9 +4,9 @@ To simulate the transport properties of electrons in gas mixtures and visualize 
 I have used a gas mixture of 90% argon and 10% iso-butane at a pressure of 3 atm and room temperature to study transport parameters (drift velocity, diffusion coefficients, Townsend coefficient, and attachment coefficient) as a function of the electric field E (and, in general, also the magnetic field B as well as the angle between E and B) and using SRIM (Stopping and Range of Ions in Matter) for simulating the energy loss of ions in matter and obtaining plots for stopping powers, range and straggling parameters.
 
 ## Prerequisites
-•	Garfield++: An object-oriented toolkit for the detailed simulation of particle detectors that use a gas mixture or a semiconductor material as sensitive medium.
-•	ROOT (v 5.34): A modular scientific software framework. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage
-•	C++ compiler that supports C++11 and a Fortran compiler
+* Garfield++: An object-oriented toolkit for the detailed simulation of particle detectors that use a gas mixture or a semiconductor material as sensitive medium.
+* ROOT (v 5.34): A modular scientific software framework. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage
+* C++ compiler that supports C++11 and a Fortran compiler
 
 ## Simulation and Plots
 I have carried out simulation of Argon- isobutane (90%-10%) gas mixture using 20 electric field points between 100 V/cm and 100 kV/cm with logarithmic spacing and using Magboltz to specify the number of collisions (in multiples of 107). We have also obtained values for different parameters using monte-carlo simulation, Paschen curve and the energy plots using SRIM.
