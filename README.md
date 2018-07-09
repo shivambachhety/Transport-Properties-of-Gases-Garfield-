@@ -1,4 +1,4 @@
-# Transport-Properties-of-Gases-Garfield-
+# Transport-Properties-of-Gases-using Garfield++
 To simulate the transport properties of electrons in gas mixtures and visualize Paschen curves
 ## Introduction
 I have used a gas mixture of 90% argon and 10% iso-butane at a pressure of 3 atm and room temperature to study transport parameters (drift velocity, diffusion coefficients, Townsend coefficient, and attachment coefficient) as a function of the electric field E (and, in general, also the magnetic field B as well as the angle between E and B) and using SRIM (Stopping and Range of Ions in Matter) for simulating the energy loss of ions in matter and obtaining plots for stopping powers, range and straggling parameters.
